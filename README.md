@@ -12,6 +12,7 @@ Cosine Similarity is used to find the similarity between the objects as similari
 This is implemented with Book Dataset.
 
 The Book dataset has 3 tables.
+
 • Users
 Contains the users. It has three columns User-ID, Location, Age.
 
