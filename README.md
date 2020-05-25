@@ -14,8 +14,10 @@ This is implemented with Book Dataset.
 The Book dataset has 3 tables.
 • Users
 Contains the users. It has three columns User-ID, Location, Age.
+
 • Books 
 Contains books detail. Books are identified by their respective ISBN. It has ISBN,Book- Title, Book-Author, Year-Of-Publication, Publisher and URLs.
+
 • Book-Ratings
 Contains the book ratings information. Ratings are on a scale from 1-10. Higher values
 denoting higher appreciation, otherwise, lower value less appreciation.
