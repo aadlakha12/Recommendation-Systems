@@ -3,7 +3,11 @@
 Recommendation Engine which helps to get the similar items to users or items to similar users to recommend.
 This Recommendation-Systems is based on collaborative filtering. It has two types user-user filtering and item-item filtering.
 
+#### User-User Filtering
+
 User-user filtering looks for the similarity between every individual user. It’s about the behavior of a user by collecting preferences from many users and can predict for similar user in future. If user A and user B has same preference for some item. It’s likely that they have same preference for other item as well rather than to other user C who has different preferences.
+
+#### Item-Item Filtering
 
 Item-item collaborative filtering, or item-based is an other type of collaborative filtering for recommendation engine based on the similarity between items calculated using user's ratings of those items. Item-item based filtering is considered to be most viable.
 
