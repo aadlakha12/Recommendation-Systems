@@ -13,6 +13,22 @@ Item-item collaborative filtering, or item-based is an other type of collaborati
 
 Cosine Similarity is used to find the similarity between the objects as similarity measure.
 
+![alt text](https://github.com/aadlakha12/Recommendation-Systems/blob/master/Cosine.png?raw=true)
+
+Mathematically, it measures the cosine angle between two vectors projected in a multi-dimensional space.
+
+As an example we have two sets as following:
+
+A = [2, 1, 1, 2, 1, 0]
+B = [1, 1, 1, 1, 1, 1]
+
+We can apply cosine similarity on the above sets as following
+
+Cos(A,B) = (2*2 + 1*1 + 1*1 + 2*1 + 1*1)
+√(2*2 + 1*1 + 2*2 + 1*1 + 1*1)*√(2*2 + 1*1 +1*1 +1*1 +1*1 +1*1)
+= > 9/9.9498 =0.9045
+
+
 This is implemented with Book Dataset.
 
 The Book dataset has 3 tables.
