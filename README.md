@@ -20,13 +20,14 @@ Mathematically, it measures the cosine angle between two vectors projected in a 
 As an example we have two sets as following:
 
 A = [2, 1, 1, 2, 1, 0]
+
 B = [1, 1, 1, 1, 1, 1]
 
 We can apply cosine similarity on the above sets as following
 
 Cos(A,B) = (2*2 + 1*1 + 1*1 + 2*1 + 1*1)/√(2*2 + 1*1 + 2*2 + 1*1 + 1*1)*√(2*2 + 1*1 +1*1 +1*1 +1*1 +1*1)
-= > 9/9.9498 =0.9045
 
+= > 9/9.9498 =0.9045
 
 This is implemented with Book Dataset.
 
